@@ -1,0 +1,144 @@
+.skills{
+    width: 100%;
+    background: linear-gradient(to bottom, #010101 0% ,#1e1e1e 30%);
+    text-align: center;
+    padding-top: 50px 0;
+}
+.skills h2{
+    font-size: clamp(3rem,3.5rem,4rem);
+    color: #EE5E16;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    font-family: 'Prata', serif;
+    font-weight: 500;
+}
+.skills .languages{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.skills .languages label{
+    color: #fff;
+    font-size:clamp(0.8rem,1.2rem,1.5rem);
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: start;
+    position: relative;
+}
+.skills .languages label img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.skills .languages progress{
+    width: 100%;
+    height: 10px;
+    background-color: #ee5e1617;
+    -webkit-appearance: none;
+    appearance: none;
+    accent-color: #EE5E16;
+}
+progress::-webkit-progress-bar {
+    background-color: #ee5e1617;
+}
+progress::-webkit-progress-value {
+    background-color: #EE5E16;
+}
+progress::-moz-progress-bar {
+    background-color: #EE5E16;
+}
+.skills .languages span{
+    position: absolute;
+    color: #EE5E16;
+    font-size: clamp(0.8rem,1.2rem,1.5rem);
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 0;
+    right: 0;
+}
+.skills .skills-Specialties .Specialties{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.single-chart {
+    width: 40%;
+    justify-content: space-around ;
+}
+  
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+} 
+.circle-bg {
+    fill: none;
+    stroke: #ee5e1617;
+    stroke-width: 3.8;
+} 
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 2s ease-out forwards;
+} 
+@keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+} 
+.circular-chart .circle {
+    stroke: #EE5E16;
+} 
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+.skills .skills-Specialties .Specialties h4{
+    color: #EE5E16;
+    font-size: clamp(0.8rem,1.2rem,1.5rem);
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+.skills .web-developer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: #3d3d3d !important;
+}
+.skills .web-developer img{
+    width: 100% !important;
+}
+.skills .web-developer::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+@media screen and (max-width: 1400px){
+    .skills .web-developer{
+        display: none;
+    }
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Prata&display=swap');
+.about{
+    width: 100%;
+    height: 100%;
+}
+.about .container{
+    position: relative;
+    height: 100%;
+}
+.about .row{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    padding: 10px;
+}
+.about .about-info{
+    padding: 80px 0;
+}
+.about .about-info h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ee5e16;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.about .about-info h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 35px 0;
+    text-transform: uppercase;
+    font-family: 'Prata', serif;
+}
+.about .about-info h4 span{
+    color: #EE5E16;
+}
+.about .about-info .animation{
+    height: 100px;
+    width: 100%;
+}
+.about .about-info h3{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #EE5E16;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+.about .about-info h3::before{
+    content: "";
+    position: absolute;
+    color: #EE5E16;
+    animation-name: words;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    font-family: 'Bad Script', cursive;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+@keyframes words {
+    5%{
+        content: "f";
+    }
+    10%{
+        content: "fr";
+    }
+    15%{
+        content: "fro";
+    }
+    20%{
+        content: "fron";
+    }
+    25%{
+        content: "front";
+    }
+    30%{
+        content: "front-";
+    }
+    35%{
+        content: "front-e";
+    }
+    40%{
+        content: "front-en"
+    }
+    45%{
+        content: "front-end";
+    }
+    50%{
+        content: "front-end";
+    }
+    55%{
+        content: "front-end";
+    }
+    60%{
+        content: "front-en";
+    }
+    65%{
+        content: "front-e";
+    }
+    70%{
+        content: "front-";
+    }
+    75%{
+        content: "front";
+    }
+    80%{
+        content: "fron";
+    }
+    85%{
+        content: "fro";
+    }
+    90%{
+        content: "fr";
+    }
+    95%{
+        content: "f";
+    }
+    100%{
+        content: " ";
+    }
+}
+.about .about-info .about-me{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+.about .about-info .about-me a{
+    background-color: #fff;
+    position: relative;
+    color: #EE5E16;
+    border: none;
+    outline: 1px solid #EE5E16;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: clamp(0.8rem,1.1rem,1.5rem);
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'Prata', serif;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 2;
+}
+.about .about-info .about-me a:hover{
+    background-color: transparent;
+    color: #fff;
+    outline: 1px solid #fff;
+    transition: background-color .8s ease-in-out, color .5s ease-in-out;
+}
+.about .about-info .about-me a:active{
+    transform: scale(0.8);
+    transition: transform .01s ease-in-out;
+}
+.about .about-info .about-me a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: transform 0.5s;
+    height: 100%;
+    width: 100%;
+    transform: scale3d(0,1,1);
+    transform-origin: center;
+    border-radius: 10px;
+    background-color: #EE5E16;
+    z-index: -1;
+}
+.about .about-info .about-me a:hover::before{
+    transform: scale3d(1,1,1);
+}
+
+.about .about-img{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: #EE5E16;
+    border-radius:70% 50% 40% 80%;
+    border: 5px solid #EE5E16;
+    box-shadow:inset 0 0 0 20px rgb(255 255 255 / 30%) ;
+    overflow: hidden;
+    animation: border-radius 8s ease-in-out infinite 1s;
+
+}
+@keyframes border-radius {
+    0%{
+        border-radius: 70% 50% 40% 80%/70% 40% 80% 50%;
+    }
+    50%{
+        border-radius: 40% 70% 80% 50%/60% 70% 40% 70%;
+    }
+    100%{
+        border-radius: 70% 50% 40% 80%/70% 40% 80% 50%;
+    }
+}
+.about .about-img img{
+    margin-left: 80px;
+}
+@media screen and (max-width: 770px) {
+    .about .about-img{
+        display: none;
+    }
+    .about .about-info{
+        padding: 0;
+        text-align: center;
+    }
+    .about .about-info .about-me{
+        justify-content: center;
+    }
+}

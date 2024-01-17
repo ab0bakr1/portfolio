@@ -1,0 +1,167 @@
+.contact{
+    background-color: #1e1e1e;
+    width: 100%;
+    padding-top: 50px;
+}
+.contact h2{
+    color: #EE5E16;
+    font-size: clamp(3rem,3.5rem,4rem);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    font-family: 'Prata', serif;
+    font-weight: 500;
+    text-align: center;
+}
+.contact .contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    color: #EE5E16;
+}
+.contact .contact-info p{
+    font-size: clamp(0.8rem,1.2rem,1.5rem);
+    font-family: 'Prata', serif;
+    font-weight: 500;
+}
+.contact .contact-info p strong{
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.contact .contact-info .contact-socail{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    font-size: clamp(2rem,3.2rem,4rem);
+}
+.contact .contact-info .contact-socail a{
+    color: #EE5E16;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+.contact .contact-info .contact-socail a:hover{
+    transform: scale(1.2);
+}
+.contact .contact-info .contact-socail a svg{
+    color: white;
+}
+.contact .contact-info .contact-socail a svg:hover{
+    animation-name: svg;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes svg{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.contact .contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.contact .contact-item .contact-now{
+    color: #EE5E16;
+    background-color: white;
+    border-radius: 5px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+}
+.contact .contact-item .contact-now::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #EE5E16;
+    border-style: solid;
+    border-width:5px 0;
+    transform-origin:top;
+    transition: 0.3s;
+    transform: scale3d(1,0,1);
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+    animation-direction:alternate;
+}
+@keyframes border{
+    0%{
+        transform: scale3d(1,0,1);
+        border-width: 0 5px;
+    }
+    100%{
+        transform: scale3d(1,1,1);
+        border-width:0 5px;
+    }
+}
+.contact .contact-item .contact-now:hover:after{
+    animation-iteration-count:1;
+}
+.contact .contact-item .contact-now::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #EE5E16;
+    border-style: solid;
+    border-width:5px 0;
+    transform-origin:left;
+    transition: 0.3s;
+    transform: scale3d(0,1,1);
+}
+.contact .contact-item .contact-now:hover::before{
+    transform: scale3d(1,1,1);
+}
+.contact .contact-item .contact-now svg{
+    font-size: clamp(3rem,5rem,6rem);
+    color: #EE5E16;
+    padding: 10px 0;
+}
+.contact .contact-item .contact-now h5{
+    font-size: clamp(0.8rem,1.2rem,1.5rem);
+    font-family: 'Prata', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1e1e1e;
+}
+.contact .contact-item .contact-now h6{
+    font-size: clamp(0.7rem,0.9rem,1rem);
+    font-family: 'Prata', serif;
+    font-weight: 500;
+}
+.contact .contact-item .contact-now p{
+    font-size: clamp(0.8rem,1rem,1.2rem);
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
