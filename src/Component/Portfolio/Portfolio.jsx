@@ -23,7 +23,7 @@ const Portfolio = () => {
         <Container>
             <h2>My project</h2>
             <Row xl={3} md={2} xs={1}>
-                <Col xl={4} md={6} xs={12} data-aos="fade-right"data-aos-duration="2000">
+                <Col xl={4} md={6} xs={12}>
                     <div className="Portfolio-card">
                         <div className="card-box">
                             <div className="card-front">
@@ -91,7 +91,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xl={4} md={6} xs={12} data-aos="fade-up" data-aos-duration="2000">
+                <Col xl={4} md={6} xs={12} >
                 <div className="Portfolio-card">
                         <div className="card-box">
                             <div className="card-front">
@@ -155,7 +155,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xl={4} md={6} xs={12} data-aos="fade-left" data-aos-duration="2000">
+                <Col xl={4} md={6} xs={12} >
                     <div className="Portfolio-card">
                         <div className="card-box">
                             <div className="card-front">
