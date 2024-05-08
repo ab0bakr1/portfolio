@@ -25,6 +25,7 @@ header .logo{
     transform: translate3d(0,0,0);
     backface-visibility: hidden;
     text-transform: uppercase;
+    text-decoration: none;
 }
 @keyframes logo {
   0% { background-position: 0% 50%; }
