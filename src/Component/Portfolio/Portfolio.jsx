@@ -14,6 +14,9 @@ import smartouch from "../../IMG/SmarToucH2.png"
 import carslk from "../../IMG/carslk.mp4 05_07_45 02_56_13 م.png"
 import tenclaouds from "../../IMG/tenclaouds.mp4 05_07_45 02_55_25 م.png"
 import seriesna from "../../IMG/seriesna.png"
+import CloneGemini from "../../IMG/Clone-Gemini.png"
+import Jeddah from "../../IMG/Jeddah.png"
+import Vision from "../../IMG/Vision.png"
 
 
 
@@ -90,6 +93,39 @@ const Portfolio = () => {
                             <a href='https://ab0bakr1.github.io/Carslk/' target='_blank' className='website'></a>
                         </div>
                     </div>
+                    <div className="Portfolio-card">
+                        <div className="card-box">
+                            <div className="card-front">
+                                <CardInfo name={"Jeddah"} type={"Landing page"}/>
+                                <div className="card-languages">
+                                    <div className="languages-one">
+                                        <img src={html} alt="" />
+                                        <p>html</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={css} alt="" />
+                                        <p>css</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={react} alt="" />
+                                        <p>react</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={javascript} alt="" />
+                                        <p>javascript</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={bootstrap} alt="" />
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-back">
+                                <img src={Jeddah} />
+                            </div>
+                            <a href='https://jeddah-two.vercel.app/' target='_blank' className='website'></a>
+                        </div>
+                    </div>
                 </Col>
                 <Col xl={4} md={6} xs={12} >
                 <div className="Portfolio-card">
@@ -154,6 +190,35 @@ const Portfolio = () => {
                             <a href='https://ab0bakr1.github.io/project-TenCloud/' target='_blank' className='website'></a>
                         </div>
                     </div>
+                    <div className="Portfolio-card">
+                        <div className="card-box">
+                            <div className="card-front">
+                                <CardInfo name={"Vision Pro"} type={"Landing page"}/>
+                                <div className="card-languages">
+                                    <div className="languages-one">
+                                        <img src={html} alt="" />
+                                        <p>html</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={css} alt="" />
+                                        <p>css</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={javascript} alt="" />
+                                        <p>javascript</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={bootstrap} alt="" />
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-back">
+                                <img src={Vision} />
+                            </div>
+                            <a href='https://ab0bakr1.github.io/project-PlacementDost-landing/' target='_blank' className='website'></a>
+                        </div>
+                    </div>
                 </Col>
                 <Col xl={4} md={6} xs={12} >
                     <div className="Portfolio-card">
@@ -187,6 +252,39 @@ const Portfolio = () => {
                                 <img src={seriesna} />                                
                             </div>
                             <a href='https://ab0bakr1.github.io/SeriesNa/' target='_blank' className='website'></a>
+                        </div>
+                    </div>
+                    <div className="Portfolio-card">
+                        <div className="card-box">
+                            <div className="card-front">
+                                <CardInfo name={"Clone-Gemini"} type={"AI Chat"}/>
+                                <div className="card-languages">
+                                    <div className="languages-one">
+                                        <img src={html} alt="" />
+                                        <p>html</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={css} alt="" />
+                                        <p>css</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={react} alt="" />
+                                        <p>react</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={javascript} alt="" />
+                                        <p>javascript</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={bootstrap} alt="" />
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-back">
+                                <img src={CloneGemini} />                                
+                            </div>
+                            <a href='https://project-clone-gemini.vercel.app/' target='_blank' className='website'></a>
                         </div>
                     </div>
                 </Col>
