@@ -8,6 +8,7 @@ import Portfolio from './Component/Portfolio/Portfolio';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import backvideo from "./IMG/backVideo.mp4"
+import CERTIFICATES from './Component/CERTIFICATES/CERTIFICATES';
 AOS.init();
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Hero />
       <Skills />
       <Portfolio />
+      <CERTIFICATES />
       <Contact />
       <Footer />
     </div>
