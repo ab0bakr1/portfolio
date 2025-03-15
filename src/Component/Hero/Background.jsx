@@ -2,7 +2,6 @@ import React from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { useEffect, useMemo, useState } from "react";
 import { loadFull } from "tsparticles";
-import { loadSlim } from "@tsparticles/slim";
 
 const Background = (props) => {
   
@@ -10,7 +9,6 @@ const Background = (props) => {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadFull(engine);
-      //await loadSlim(engine);
     }).then(() => {
       setInit(true);
     });
