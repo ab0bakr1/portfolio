@@ -4,10 +4,9 @@ import './Portfolio.css'
 import html from "../../IMG/languages1.png"
 import css from "../../IMG/languages2.png"
 import bootstrap from "../../IMG/languages3.png"
-import tailwind from "../../IMG/languages4.png"
+import node from "../../IMG/languages7.png"
 import javascript from "../../IMG/languages5.png"
 import react from "../../IMG/languages6.png"
-import node from "../../IMG/languages7.png"
 import CardInfo from './CardInfo'
 import photosec from "../../IMG/photosec.png"
 import smartouch from "../../IMG/SmarToucH2.png"

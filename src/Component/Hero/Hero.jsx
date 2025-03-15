@@ -1,19 +1,17 @@
 import React from 'react'
 import './Hero.css'
-import backvideo from "../../IMG/backVideo.mp4"
 import About from './About/About'
+import Background from './Background'
 
 const Hero = () => {
   return (
     <section className='hero'>
         <About />
-        <div className='backvideo'>
-            <video autoPlay loop muted>
-                <source src={backvideo} type='video/mp4'/>
-            </video>
+        <div className='background'>
+          <Background />
         </div>
         <div className='backphoto'>
-            <div className='Mountains'></div>
+          <div className='Mountains'></div>
         </div>
     </section>
         

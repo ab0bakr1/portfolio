@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import CERTIFICATE1 from "../../IMG/CERTIFICATE1.png"
 import CERTIFICATE2 from "../../IMG/CERTIFICATE2.png"
+import CERTIFICATE3 from "../../IMG/CERTIFICATE3.png"
 import "./CERTIFICATES.css";
 
 
@@ -16,6 +17,9 @@ const CERTIFICATES = () => {
                 </div>
                 <div className="CERTIFICATE">
                   <img src={CERTIFICATE2} alt="" />
+                </div>
+                <div className="CERTIFICATE">
+                  <img src={CERTIFICATE3} alt="" />
                 </div>
             </Row>
         </Container>

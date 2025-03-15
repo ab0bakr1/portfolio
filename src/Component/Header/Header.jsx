@@ -1,9 +1,6 @@
-import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { motion } from "framer-motion"
 import React, { useState } from "react";
 import "./Header.css"
-import { ToggleButton } from "react-bootstrap";
+import { motion } from "framer-motion"
 import Button from "./Button";
 import Links from "./Links";
 

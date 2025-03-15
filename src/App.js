@@ -14,11 +14,6 @@ AOS.init();
 function App() {
   return (
     <div className="App" data-aos="fade-right">
-      <div className='backvideo2'>
-        <video autoPlay loop muted>
-          <source src={backvideo} type='video/mp4'/>
-        </video>
-      </div>
       <Header />
       <Hero />
       <Skills />

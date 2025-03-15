@@ -8,6 +8,8 @@ import tailwind from "../../IMG/languages4.png"
 import javascript from "../../IMG/languages5.png"
 import react from "../../IMG/languages6.png"
 import node from "../../IMG/languages7.png"
+import API from "../../IMG/languages8.png"
+import MongoDB from "../../IMG/languages9.png"
 import { Parallax } from 'react-parallax'
 import WebDeveloper from "../../IMG/web-developer.png"
 import AOS from 'aos';
@@ -27,28 +29,36 @@ const Skills = () => {
                             <progress min={0} value={90} max={100}></progress>
                         </label>
                         <label htmlFor=""><img src={css}/>CSS
-                            <span>85%</span>
-                            <progress min={0} value={85} max={100}></progress>
+                            <span>95%</span>
+                            <progress min={0} value={95} max={100}></progress>
                         </label>
                         <label htmlFor=""><img src={bootstrap}/>Bootstrap
                             <span>95%</span>
                             <progress min={0} value={95} max={100}></progress>
                         </label>
                         <label htmlFor=""><img src={tailwind}/>tailwind
-                            <span>65%</span>
-                            <progress min={0} value={65} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={javascript}/>JAVASCRIPT
                             <span>70%</span>
                             <progress min={0} value={70} max={100}></progress>
+                        </label>
+                        <label htmlFor=""><img src={javascript}/>JAVASCRIPT
+                            <span>85%</span>
+                            <progress min={0} value={85} max={100}></progress>
                         </label>
                         <label htmlFor=""><img src={react}/>REACT.JS
                             <span>80%</span>
                             <progress min={0} value={80} max={100}></progress>
                         </label>
                         <label htmlFor=""><img src={node}/>NODE.JS
-                            <span>10%</span>
-                            <progress min={0} value={10} max={100}></progress>
+                            <span>60%</span>
+                            <progress min={0} value={60} max={100}></progress>
+                        </label>
+                        <label htmlFor=""><img src={API}/>API
+                            <span>70%</span>
+                            <progress min={0} value={70} max={100}></progress>
+                        </label>
+                        <label htmlFor=""><img src={MongoDB}/>MongoDB
+                            <span>50%</span>
+                            <progress min={0} value={50} max={100}></progress>
                         </label>
                     </div>
                 </Col>
@@ -62,12 +72,12 @@ const Skills = () => {
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
                             <path class="circle"
-                                stroke-dasharray="80, 100"
+                                stroke-dasharray="90, 100"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
-                            <text x="18" y="20.35" class="percentage">80%</text>
+                            <text x="18" y="20.35" class="percentage">90%</text>
                             </svg>
                             <h4>front-end</h4>
                         </div>
@@ -80,12 +90,12 @@ const Skills = () => {
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
                             <path class="circle"
-                                stroke-dasharray="5, 100"
+                                stroke-dasharray="65, 100"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
                                 a 15.9155 15.9155 0 0 1 0 -31.831"
                             />
-                            <text x="18" y="20.35" class="percentage">5%</text>
+                            <text x="18" y="20.35" class="percentage">65%</text>
                             </svg>
                             <h4>back-end</h4>
                         </div>

@@ -54,7 +54,7 @@
     position: absolute;
     color: #EE5E16;
     animation-name: words;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
@@ -64,65 +64,155 @@
     width: 100%;
 }
 @keyframes words {
-    5%{
-        content: "f";
+    2%{
+        content: "F";
+    }
+    4%{
+        content: "Fr";
+    }
+    6%{
+        content: "Fro"
+    }
+    8%{
+        content: "Fron"
     }
     10%{
-        content: "fr";
+        content: "Front"
     }
-    15%{
-        content: "fro";
+    12%{
+        content: "Front-e"
+    }
+    14%{
+        content: "Front-en"
+    }
+    16%{
+        content: "Front-end"
+    }
+    18%{
+        content: "Front-end"
     }
     20%{
-        content: "fron";
+        content: "Front-en"
     }
-    25%{
-        content: "front";
+    22%{
+        content: "Front-e"
+    }
+    24%{
+        content: "Front"
+    }
+    26%{
+        content: "Fron"
+    }
+    28%{
+        content: "Fro"
     }
     30%{
-        content: "front-";
+        content: "Fr"
     }
-    35%{
-        content: "front-e";
+    32%{
+        content: "F"
+    }
+    34%{
+        content: ""
+    }
+    36%{
+        content: "B";
+    }
+    38%{
+        content: "Ba";
     }
     40%{
-        content: "front-en"
+        content: "Bac";
     }
-    45%{
-        content: "front-end";
+    42%{
+        content: "Back";
+    }
+    44%{
+        content: "Back-e";
+    }
+    46%{
+        content: "Back-en";
+    }
+    48%{
+        content: "Back-end";
     }
     50%{
-        content: "front-end";
+        content: "Back-end";
     }
-    55%{
-        content: "front-end";
+    52%{
+        content: "Back-en";
+    }
+    54%{
+        content: "Back-e";
+    }
+    56%{
+        content: "Back";
+    }
+    58%{
+        content: "Bac";
     }
     60%{
-        content: "front-en";
+        content: "Ba";
     }
-    65%{
-        content: "front-e";
+    62%{
+        content: "B";
+    }
+    64%{
+        content: ""
+    }
+    66%{
+        content: "F";
+    }
+    68%{
+        content: "Fu";
     }
     70%{
-        content: "front-";
+        content: "Ful";
     }
-    75%{
-        content: "front";
+    72%{
+        content: "Full";
+    }
+    74%{
+        content: "Full-s";
+    }
+    76%{
+        content: "Full-st";
+    }
+    78%{
+        content: "Full-sta";
     }
     80%{
-        content: "fron";
+        content: "Full-stac";
     }
-    85%{
-        content: "fro";
+    82%{
+        content: "Full-stack";
+    }
+    84%{
+        content: "Full-stack";
+    }
+    86%{
+        content: "Full-sta";
+    }
+    88%{
+        content: "Full-st";
     }
     90%{
-        content: "fr";
+        content: "Full-s";
     }
-    95%{
-        content: "f";
+    92%{
+        content: "Full";
+    }
+    94%{
+        content: "Ful";
+    }
+    96%{
+        content: "Fu";
+    }
+    98%{
+        content: "F"
     }
     100%{
-        content: " ";
+        content: "";
     }
 }
 .about .about-info .about-me{
@@ -132,13 +222,11 @@
     gap: 30px;
 }
 .about .about-info .about-me a{
-    background-color: #fff;
     position: relative;
     color: #EE5E16;
     border: none;
     outline: 1px solid #EE5E16;
     padding: 10px 30px;
-    border-radius: 10px;
     font-size: clamp(0.8rem,1.1rem,1.5rem);
     text-transform: uppercase;
     font-weight: bolder;
@@ -150,33 +238,15 @@
     z-index: 2;
 }
 .about .about-info .about-me a:hover{
-    background-color: transparent;
     color: #fff;
-    outline: 1px solid #fff;
-    transition: background-color .8s ease-in-out, color .5s ease-in-out;
+    transition: all .8s ease-in-out, color .5s ease-in-out;
+    box-shadow: 0 0.5em 0.5em -0.4em #EE5E16;
+    transform: translateY(-0.25em);
 }
 .about .about-info .about-me a:active{
     transform: scale(0.8);
     transition: transform .01s ease-in-out;
 }
-.about .about-info .about-me a::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: transform 0.5s;
-    height: 100%;
-    width: 100%;
-    transform: scale3d(0,1,1);
-    transform-origin: center;
-    border-radius: 10px;
-    background-color: #EE5E16;
-    z-index: -1;
-}
-.about .about-info .about-me a:hover::before{
-    transform: scale3d(1,1,1);
-}
-
 .about .about-img{
     margin: auto;
     width: 80%;
