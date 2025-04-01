@@ -4,5 +4,5 @@
   box-sizing: border-box;
 }
 h2{
-  font-size: clamp(2rem, 4vw, 6rem)important;
+  font-size: clamp(2rem, 4vw, 6rem) !important;
 }
