@@ -10,24 +10,16 @@ hr{
     height: 2px;
     background-color: #EE5E16;
 }
-footer h2{
-    font-size: clamp(1.2rem,1.8rem,2rem);
+footer h3{
+    font-size: clamp(1.2rem,1.8vw,2rem);
     font-family: 'Prata', serif;
     font-weight: 500;
 }
-footer h2 span{
+footer h3 span{
     color: #EE5E16;
     font-weight: bolder;
     letter-spacing: 1px;
     font-family: 'Bad Script', cursive;
     text-transform: uppercase;
-    font-size: clamp(1rem,1.5rem,2rem);
-}
-@media screen and (max-width: 768px){
-    footer h2{
-        font-size: 1.2rem;
-    }
-    footer h2 span{
-        font-size: 1rem;
-    }
+    font-size: clamp(1rem,1.5vw,2rem);
 }
