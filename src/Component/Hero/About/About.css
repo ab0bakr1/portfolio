@@ -28,7 +28,7 @@
     margin: 10px 0;
 }
 .about .about-info h4{
-    font-size: 3rem;
+    font-size: clamp(2.7rem, 3vw, 6rem);
     font-weight: 700;
     color: #fff;
     margin: 35px 0;
