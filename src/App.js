@@ -12,7 +12,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className="App" data-aos="fade-right">
+    <>
       <Header />
       <Hero />
       <Skills />
@@ -20,7 +20,7 @@ function App() {
       <Certificates />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
