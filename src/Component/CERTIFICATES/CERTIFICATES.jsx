@@ -6,7 +6,7 @@ import CERTIFICATE3 from "../../IMG/CERTIFICATE3.png"
 import "./CERTIFICATES.css";
 
 
-const CERTIFICATES = () => {
+const Certificates = () => {
   return (
     <section className='CERTIFICATES'>
         <Container>
@@ -27,4 +27,4 @@ const CERTIFICATES = () => {
   )
 }
 
-export default CERTIFICATES
+export default Certificates
