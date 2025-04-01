@@ -152,7 +152,7 @@
     color: #1e1e1e;
 }
 .contact .contact-item .contact-now h6{
-    font-size: clamp(0.7rem,0.9rem,1rem);
+    font-size: clamp(.6rem, 1.8vw, 1rem);
     font-family: 'Prata', serif;
     font-weight: 500;
 }
