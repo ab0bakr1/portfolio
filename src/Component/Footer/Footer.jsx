@@ -7,11 +7,11 @@ const Footer = () => {
     <footer>
         <Container>
             <hr />
-            <h2>
+            <h3>
                 Copyright © 2024 <span>
                     Abobakr almashhor
                 </span>
-            </h2>
+            </h3>
         </Container>
     </footer>
   )
