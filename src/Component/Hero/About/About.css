@@ -43,7 +43,7 @@
     width: 100%;
 }
 .about .about-info h3{
-    font-size: 4rem;
+    font-size: clamp(2.7rem, 3vw, 6rem);
     font-weight: 400;
     color: #EE5E16;
     margin-bottom: 10px;
@@ -56,7 +56,7 @@
     position: absolute;
     color: #EE5E16;
     animation-name: words;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
