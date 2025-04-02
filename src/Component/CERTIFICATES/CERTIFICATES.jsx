@@ -12,7 +12,7 @@ const CERTIFICATES = () => {
     <section className='CERTIFICATES'>
         <Container>
             <h2>CERTIFICATES</h2>
-            <Row xl={3} md={2} sm={1} style="gap:10px 0;">
+            <Row xl={3} md={2} sm={1} style={{ gap: "10px 0" }}>
                 <div className="CERTIFICATE">
                   <img src={CERTIFICATE1} alt="" />
                 </div>
