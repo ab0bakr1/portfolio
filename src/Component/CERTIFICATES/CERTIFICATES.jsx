@@ -7,7 +7,7 @@ import "./CERTIFICATES.css";
 
 
 
-const CERTIFICATES = () => {
+const Certificates = () => {
   return (
     <section className='CERTIFICATES'>
         <Container>
@@ -28,4 +28,4 @@ const CERTIFICATES = () => {
   )
 }
 
-export default CERTIFICATES
+export default Certificates
