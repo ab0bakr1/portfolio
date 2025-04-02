@@ -7,7 +7,7 @@ import Skills from './Component/Skills/Skills';
 import Portfolio from './Component/Portfolio/Portfolio';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
-import Certificates from './Component/CERTIFICATES/CERTIFICATES ';
+import CERTIFICATES from './Component/CERTIFICATES/CERTIFICATES ';
 AOS.init();
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <Skills />
       <Portfolio />
-      <Certificates />
+      <CERTIFICATES />
       <Contact />
       <Footer />
     </>
