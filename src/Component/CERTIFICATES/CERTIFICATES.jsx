@@ -6,6 +6,7 @@ import CERTIFICATE3 from "../../IMG/CERTIFICATE3.png"
 import "./CERTIFICATES.css";
 
 
+
 const CERTIFICATES = () => {
   return (
     <section className='CERTIFICATES'>
