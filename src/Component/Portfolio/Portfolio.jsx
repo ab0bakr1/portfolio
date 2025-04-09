@@ -5,6 +5,7 @@ import html from "../../IMG/languages1.png"
 import css from "../../IMG/languages2.png"
 import bootstrap from "../../IMG/languages3.png"
 import node from "../../IMG/languages7.png"
+import api from "../../IMG/languages8.png"
 import javascript from "../../IMG/languages5.png"
 import react from "../../IMG/languages6.png"
 import CardInfo from './CardInfo'
@@ -16,6 +17,8 @@ import seriesna from "../../IMG/seriesna.png"
 import CloneGemini from "../../IMG/Clone-Gemini.png"
 import Jeddah from "../../IMG/Jeddah.png"
 import Vision from "../../IMG/Vision.png"
+import Weather from "../../IMG/Weather.png"
+
 
 
 
@@ -284,6 +287,35 @@ const Portfolio = () => {
                                 <img src={CloneGemini} />                                
                             </div>
                             <a href='https://project-clone-gemini.vercel.app/' target='_blank' className='website'></a>
+                        </div>
+                    </div>
+                    <div className="Portfolio-card">
+                        <div className="card-box">
+                            <div className="card-front">
+                                <CardInfo name={"Weather"} type={"Weather App"}/>
+                                <div className="card-languages">
+                                    <div className="languages-one">
+                                        <img src={react} alt="" />
+                                        <p>react</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={css} alt="" />
+                                        <p>css</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={api} alt="" />
+                                        <p>api</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={bootstrap} alt="" />
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-back">
+                                <img src={Weather} />                                
+                            </div>
+                            <a href='https://task4-4-webmasters.vercel.app/' target='_blank' className='website'></a>
                         </div>
                     </div>
                 </Col>
