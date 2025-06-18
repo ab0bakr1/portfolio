@@ -18,6 +18,7 @@ import CloneGemini from "../../IMG/Clone-Gemini.png"
 import Jeddah from "../../IMG/Jeddah.png"
 import Vision from "../../IMG/Vision.png"
 import Weather from "../../IMG/Weather.png"
+import ThenAlqanoon from "../../IMG/لقطة شاشة 2025-06-19 014656.png
 
 
 
@@ -316,6 +317,35 @@ const Portfolio = () => {
                                 <img src={Weather} />                                
                             </div>
                             <a href='https://task4-4-webmasters.vercel.app/' target='_blank' className='website'></a>
+                        </div>
+                    </div>
+                  <div className="Portfolio-card">
+                        <div className="card-box">
+                            <div className="card-front">
+                                <CardInfo name={"then alqanoon"} type={"Landing page"}/>
+                                <div className="card-languages">
+                                    <div className="languages-one">
+                                        <img src={react} alt="" />
+                                        <p>react</p>
+                                    </div>
+                                    <div className="languages-one">
+                                          <img src={css} alt="" />
+                                          <p>css</p>
+                                      </div>
+                                    <div className="languages-one">
+                                        <img src={javascript} alt="" />
+                                        <p>javascript</p>
+                                    </div>
+                                    <div className="languages-one">
+                                        <img src={bootstrap} alt="" />
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-back">
+                                <img src={ThenAlqanoon} />
+                            </div>
+                            <a href='https://jeddah-two.vercel.app/' target='_blank' className='website'></a>
                         </div>
                     </div>
                 </Col>
