@@ -18,7 +18,7 @@ import CloneGemini from "../../IMG/Clone-Gemini.png"
 import Jeddah from "../../IMG/Jeddah.png"
 import Vision from "../../IMG/Vision.png"
 import Weather from "../../IMG/Weather.png"
-import ThenAlqanoon from "../../IMG/لقطة شاشة 2025-06-19 014656.png
+import ThenAlqanoon from "../../IMG/لقطة شاشة 2025-06-19 014656.png"
 
 
 
