@@ -345,7 +345,7 @@ const Portfolio = () => {
                             <div className="card-back">
                                 <img src={ThenAlqanoon} />
                             </div>
-                            <a href='https://jeddah-two.vercel.app/' target='_blank' className='website'></a>
+                            <a href='https://thahn-alqanon.vercel.app/' target='_blank' className='website'></a>
                         </div>
                     </div>
                 </Col>
