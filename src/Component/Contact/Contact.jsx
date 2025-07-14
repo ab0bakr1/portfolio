@@ -15,7 +15,7 @@ const Contact = () => {
                     <div className="contact-info" data-aos="fade-right" data-aos-duration="2000">
                         <p><strong>Name : </strong>Abobakr Zain Almashhor</p>
                         <p><strong>Email : </strong>abobakralmashhor@gmail.com</p>
-                        <p><strong>Phone : </strong>+967 730605256</p>
+                        <p><strong>Phone : </strong>+967 730605256 <br/> +966543770498 <br/> +96876628669</p>
                         <div className="contact-socail" data-aos="fade-up" data-aos-duration="2000">
                             <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
                             <a href=""><FontAwesomeIcon icon={faSquareFacebook} /></a>
@@ -25,10 +25,10 @@ const Contact = () => {
                 </Col>
                 <Col xl={7} md={7} xs={12}>
                     <div className="contact-item" data-aos="fade-down" data-aos-duration="2000">
-                        <a href='https://wa.me/+967730605256' target='_blank' className="contact-now">
+                        <a href='https://wa.me/+96876628669' target='_blank' className="contact-now">
                             <FontAwesomeIcon icon={faWhatsapp} />
                             <h5>Whatsapp</h5>
-                            <h6>+967 730605256</h6>
+                            <h6>+96876628669</h6>
                             <p>write me</p>
                         </a>
                         <a href='mailto:abobakralmshhor@gmail.com' target='_blank' className="contact-now">
