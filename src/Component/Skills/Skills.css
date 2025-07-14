@@ -1,8 +1,8 @@
 .skills{
     width: 100%;
-    background: linear-gradient(to bottom, #010101 0% ,#1e1e1e 30%);
+    background: linear-gradient(to bottom, transparent 0% ,#1e1e1e 20%);
     text-align: center;
-    padding-top: 50px 0;
+    margin-top: 50px;
 }
 .skills h2{
     font-size: clamp(3rem,3.5rem,4rem);

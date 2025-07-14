@@ -10,9 +10,6 @@ const Hero = () => {
         <div className='background'>
           <Background />
         </div>
-        <div className='backphoto'>
-          <div className='Mountains'></div>
-        </div>
     </section>
         
   )
