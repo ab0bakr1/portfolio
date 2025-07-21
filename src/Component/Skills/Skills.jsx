@@ -21,87 +21,46 @@ const Skills = () => {
     <section className='skills' id='skills'>
         <Container>
             <h2>my Skills</h2>
-            <Row xl={2} md={2} xs={1}>
-                <Col xl={6} md={6} xs={12} data-aos="fade-up" data-aos-duration="2000" className="skills-languages">
-                    <div className="languages">
-                        <label htmlFor=""><img src={html}/>HTML
-                            <span>90%</span>
-                            <progress min={0} value={90} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={css}/>CSS
-                            <span>95%</span>
-                            <progress min={0} value={95} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={bootstrap}/>Bootstrap
-                            <span>95%</span>
-                            <progress min={0} value={95} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={tailwind}/>tailwind
-                            <span>70%</span>
-                            <progress min={0} value={70} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={javascript}/>JAVASCRIPT
-                            <span>85%</span>
-                            <progress min={0} value={85} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={react}/>REACT.JS
-                            <span>80%</span>
-                            <progress min={0} value={80} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={node}/>NODE.JS
-                            <span>60%</span>
-                            <progress min={0} value={60} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={API}/>API
-                            <span>70%</span>
-                            <progress min={0} value={70} max={100}></progress>
-                        </label>
-                        <label htmlFor=""><img src={MongoDB}/>MongoDB
-                            <span>50%</span>
-                            <progress min={0} value={50} max={100}></progress>
-                        </label>
-                    </div>
-                </Col>
-                <Col xl={6} md={6} xs={12} data-aos="fade-up" data-aos-duration="2000" className="skills-Specialties">
-                    <div className="Specialties">
-                        <div class="single-chart">
-                            <svg viewBox="0 0 36 36" class="circular-chart orange">
-                            <path class="circle-bg"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <path class="circle"
-                                stroke-dasharray="90, 100"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <text x="18" y="20.35" class="percentage">90%</text>
-                            </svg>
-                            <h4>front-end</h4>
-                        </div>
-                        
-                        <div class="single-chart">
-                            <svg viewBox="0 0 36 36" class="circular-chart green">
-                            <path class="circle-bg"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <path class="circle"
-                                stroke-dasharray="65, 100"
-                                d="M18 2.0845
-                                a 15.9155 15.9155 0 0 1 0 31.831
-                                a 15.9155 15.9155 0 0 1 0 -31.831"
-                            />
-                            <text x="18" y="20.35" class="percentage">65%</text>
-                            </svg>
-                            <h4>back-end</h4>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
+            <div data-aos="fade-up" data-aos-duration="2000" className="skills-languages">
+                <Row xl={6} md={6} xs={12} className="languages">
+                    <label htmlFor="">
+                        <img src={html} alt="HTML"/>
+                        HTML
+                    </label>
+                    <label htmlFor="">
+                        <img src={css} alt="CSS"/>
+                        CSS
+                    </label>
+                    <label htmlFor="">
+                        <img src={bootstrap} alt="bootstrap"/>
+                        Bootstrap
+                    </label>
+                    <label htmlFor="">
+                        <img src={tailwind} alt="tailwind"/>
+                        tailwind
+                    </label>
+                    <label htmlFor="">
+                        <img src={javascript} alt="javascript"/>
+                        JAVASCRIPT
+                    </label>
+                    <label htmlFor="">
+                        <img src={react} alt="react"/>
+                        REACT.JS
+                    </label>
+                    <label htmlFor="">
+                        <img src={node} alt="node"/>
+                        NODE.JS
+                    </label>
+                    <label htmlFor="">
+                        <img src={API} alt="API"/>
+                        API
+                    </label>
+                    <label htmlFor="">
+                        <img src={MongoDB} alt="MongoDB"/>
+                        MongoDB
+                    </label>
+                </Row>
+            </div>
         </Container>
         <Parallax className='web-developer' strength={500} bgImage={WebDeveloper}></Parallax>
     </section>
