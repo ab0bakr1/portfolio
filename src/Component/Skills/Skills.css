@@ -15,60 +15,32 @@
 }
 .skills .languages{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
     gap: 20px;
     padding: 20px 0;
+    text-align: center;
+    flex-wrap: wrap
 }
-.skills .languages svg{
+.skills .languages .skills-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px ;
+}
+.skills .languages svg,
+.skills .languages img{
     color:#fff;
     fill:#fff;
     font-size:80px;
 }
-.skills .languages label{
-    color: #fff;
-    font-size:clamp(0.8rem,1.2rem,1.5rem);
-    font-family: 'Prata', serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 100%;
-    text-align: start;
-    position: relative;
+.skills .languages svg:hover,
+.skills .languages img{
+    color:#EE5E16;
+    fill:#EE5E16;
 }
-.skills .languages label img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-.skills .languages progress{
-    width: 100%;
-    height: 10px;
-    background-color: #ee5e1617;
-    -webkit-appearance: none;
-    appearance: none;
-    accent-color: #EE5E16;
-}
-progress::-webkit-progress-bar {
-    background-color: #ee5e1617;
-}
-progress::-webkit-progress-value {
-    background-color: #EE5E16;
-}
-progress::-moz-progress-bar {
-    background-color: #EE5E16;
-}
-.skills .languages span{
-    position: absolute;
-    color: #EE5E16;
-    font-size: clamp(0.8rem,1.2rem,1.5rem);
-    font-family: 'Prata', serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    top: 0;
-    right: 0;
+.skills .languages .skills-item p{
+    margin:0;
 }
 .skills .skills-Specialties .Specialties{
     position: relative;
