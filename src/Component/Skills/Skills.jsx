@@ -60,7 +60,7 @@ const Skills = () => {
                 </Row>
             </div>
         </Container>
-        <Parallax className='web-developer' strength={500} bgImage={WebDeveloper}></Parallax>
+        <div className='web-developer'></div>
     </section>
   )
 }
