@@ -36,29 +36,29 @@ const Portfolio = () => {
                                 <CardInfo name={"SmarTouch"} type={"E-Commerce"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="HTML" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={smartouch} />
+                                <img src={smartouch} loading='lazy' alt="Website SmarTouch" />
                             </div>
                             <a href='https://ab0bakr1.github.io/SmarToucH/' target='_blank' className='website'></a>
                         </div>
@@ -69,29 +69,29 @@ const Portfolio = () => {
                                 <CardInfo name={"Carslk"} type={"E-Commerce"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                            <img src={html} alt="" />
+                                            <img src={html} alt="html" loading='lazy' />
                                             <p>html</p>
                                         </div>
                                         <div className="languages-one">
-                                            <img src={css} alt="" />
+                                            <img src={css} alt="css" loading='lazy' />
                                             <p>css</p>
                                         </div>
                                         <div className="languages-one">
-                                            <img src={react} alt="" />
+                                            <img src={react} alt="react" loading='lazy' />
                                             <p>react</p>
                                         </div>
                                         <div className="languages-one">
-                                            <img src={javascript} alt="" />
+                                            <img src={javascript} alt="javascript" loading='lazy' />
                                             <p>javascript</p>
                                         </div>
                                         <div className="languages-one">
-                                            <img src={bootstrap} alt="" />
+                                            <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                             <p>bootstrap</p>
                                         </div>
                                     </div>
                                 </div>
                             <div className="card-back">
-                                <img src={carslk} />
+                                <img src={carslk} loading='lazy' alt="Website Carslk" />
                             </div>
                             <a href='https://ab0bakr1.github.io/Carslk/' target='_blank' className='website'></a>
                         </div>
@@ -102,29 +102,29 @@ const Portfolio = () => {
                                 <CardInfo name={"Jeddah"} type={"Landing page"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={Jeddah} />
+                                <img src={Jeddah} loading='lazy' alt="Website Jeddah" />
                             </div>
                             <a href='https://jeddah-two.vercel.app/' target='_blank' className='website'></a>
                         </div>
@@ -137,29 +137,29 @@ const Portfolio = () => {
                                 <CardInfo name={"PhotoSec"} type={"Landing page"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={photosec} />
+                                <img src={photosec} loading='lazy' alt="Website PhotoSec" />
                             </div>
                             <a href='https://photo-sec.vercel.app/' target='_blank' className='website'></a>
                         </div>
@@ -170,25 +170,25 @@ const Portfolio = () => {
                                 <CardInfo name={"Ten Clouds"} type={"Directory"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={tenclaouds} />
+                                <img src={tenclaouds} loading='lazy' alt="Website Ten Clouds" />
                             </div>
                             <a href='https://ab0bakr1.github.io/project-TenCloud/' target='_blank' className='website'></a>
                         </div>
@@ -199,25 +199,25 @@ const Portfolio = () => {
                                 <CardInfo name={"Vision Pro"} type={"Landing page"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={Vision} />
+                                <img src={Vision} loading='lazy' alt="Website Vision Pro" />
                             </div>
                             <a href='https://ab0bakr1.github.io/project-PlacementDost-landing/' target='_blank' className='website'></a>
                         </div>
@@ -230,29 +230,29 @@ const Portfolio = () => {
                                 <CardInfo name={"SeriesNa"} type={"TV Shows"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={seriesna} />                                
+                                <img src={seriesna} loading='lazy' alt="Website SeriesNa" />                                
                             </div>
                             <a href='https://ab0bakr1.github.io/SeriesNa/' target='_blank' className='website'></a>
                         </div>
@@ -263,29 +263,29 @@ const Portfolio = () => {
                                 <CardInfo name={"Clone-Gemini"} type={"AI Chat"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={html} alt="" />
+                                        <img src={html} alt="html" loading='lazy' />
                                         <p>html</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={CloneGemini} />                                
+                                <img src={CloneGemini} loading='lazy' alt="Website CloneGemini" />                                
                             </div>
                             <a href='https://project-clone-gemini.vercel.app/' target='_blank' className='website'></a>
                         </div>
@@ -296,25 +296,25 @@ const Portfolio = () => {
                                 <CardInfo name={"Weather"} type={"Weather App"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={css} alt="" />
+                                        <img src={css} alt="css" loading='lazy' />
                                         <p>css</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={api} alt="" />
+                                        <img src={api} alt="api" loading='lazy' />
                                         <p>api</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={Weather} />                                
+                                <img src={Weather} loading='lazy' alt="Website Weather" />                                
                             </div>
                             <a href='https://task4-4-webmasters.vercel.app/' target='_blank' className='website'></a>
                         </div>
@@ -325,25 +325,25 @@ const Portfolio = () => {
                                 <CardInfo name={"then alqanoon"} type={"Landing page"}/>
                                 <div className="card-languages">
                                     <div className="languages-one">
-                                        <img src={react} alt="" />
+                                        <img src={react} alt="react" loading='lazy' />
                                         <p>react</p>
                                     </div>
                                     <div className="languages-one">
-                                          <img src={css} alt="" />
+                                          <img src={css} alt="css" loading='lazy' />
                                           <p>css</p>
                                       </div>
                                     <div className="languages-one">
-                                        <img src={javascript} alt="" />
+                                        <img src={javascript} alt="javascript" loading='lazy' />
                                         <p>javascript</p>
                                     </div>
                                     <div className="languages-one">
-                                        <img src={bootstrap} alt="" />
+                                        <img src={bootstrap} alt="bootstrap" loading='lazy' />
                                         <p>bootstrap</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="card-back">
-                                <img src={ThenAlqanoon} />
+                                <img src={ThenAlqanoon} loading='lazy' alt="Website ThenAlqanoon" />
                             </div>
                             <a href='https://thahn-alqanon.vercel.app/' target='_blank' className='website'></a>
                         </div>

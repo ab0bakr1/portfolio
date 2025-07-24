@@ -34,13 +34,13 @@
     fill:#fff;
     font-size:80px;
 }
-.skills .languages svg:hover,
-.skills .languages img{
-    color:#EE5E16;
-    fill:#EE5E16;
-}
 .skills .languages .skills-item p{
     margin:0;
+}
+.skills .languages .skills-item:hover svg,
+.skills .languages .skills-item:hover p{
+    color:#EE5E16;
+    fill:#EE5E16;
 }
 .skills .skills-Specialties .Specialties{
     position: relative;

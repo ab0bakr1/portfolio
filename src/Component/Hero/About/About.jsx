@@ -21,7 +21,7 @@ const About = () => {
                 </Col>
                 <Col xl={6} md={6} xs={12}>
                     <div className="about-img">
-                        <img src={me} alt="" style={{width:"100%",height:"100%"}}/>
+                        <img src={me} alt="Photo me" loading='lazy' style={{width:"100%",height:"100%"}}/>
                     </div>
                 </Col>
             </Row>

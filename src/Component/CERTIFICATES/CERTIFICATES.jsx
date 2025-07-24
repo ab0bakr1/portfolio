@@ -14,13 +14,13 @@ const CERTIFICATES = () => {
             <h2>CERTIFICATES</h2>
             <Row xl={3} md={2} sm={1} style={{ gap: "10px 0" }}>
                 <div className="CERTIFICATE">
-                  <img src={CERTIFICATE1} alt="" />
+                  <img src={CERTIFICATE1} alt="" loading='lazy' />
                 </div>
                 <div className="CERTIFICATE">
-                  <img src={CERTIFICATE2} alt="" />
+                  <img src={CERTIFICATE2} alt="" loading='lazy' />
                 </div>
                 <div className="CERTIFICATE">
-                  <img src={CERTIFICATE3} alt="" />
+                  <img src={CERTIFICATE3} alt="" loading='lazy' />
                 </div>
             </Row>
         </Container>

@@ -97,7 +97,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #EE5E16 1px solid;
 }
 .Portfolio .card-languages .languages-one img{
     width: 50px;
