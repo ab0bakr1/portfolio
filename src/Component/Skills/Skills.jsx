@@ -60,7 +60,6 @@ const Skills = () => {
                 </Row>
             </div>
         </Container>
-        <div className='web-developer'></div>
     </section>
   )
 }
