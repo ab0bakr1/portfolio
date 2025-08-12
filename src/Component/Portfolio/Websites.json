@@ -3,10 +3,10 @@
         "id": 1,
         "name": "Ten Clouds",
         "languages": [{
-            "html": "<FontAwesomeIcon icon={faHtml5} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "html": "faHtml5",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "tenclaouds.mp4 05_07_45 02_55_25 م.png",
         "link" : "https://ab0bakr1.github.io/project-TenCloud/",
@@ -16,10 +16,10 @@
         "id": 2,
         "name": "Carslk",
         "languages": [{
-        "react": "<FontAwesomeIcon icon={faReact} />",
-        "css": "<FontAwesomeIcon icon={faCss3} />",
-        "js": "<FontAwesomeIcon icon={faJs} />",
-        "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+        "react": "faReact",
+        "css": "faCss3",
+        "js": "faJs",
+        "bootstrap": "faBootstrap"
         }],
         "image": "carslk.mp4 05_07_45 02_56_13 م.png",
         "link" : "https://ab0bakr1.github.io/Carslk/",
@@ -29,10 +29,10 @@
         "id": 3,
         "name": "SmarTouch",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "SmarToucH2.png",
         "link" : "https://ab0bakr1.github.io/SmarToucH/",
@@ -42,11 +42,11 @@
         "id": 4,
         "name": "SeriesNa",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />",
-            "api": "<FontAwesomeIcon icon={faApi} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap",
+            "api": "faApi"
         }],
         "image": "seriesna.png",
         "link" : "https://ab0bakr1.github.io/SeriesNa/",
@@ -56,10 +56,10 @@
         "id": 5,
         "name": "PhotoSec",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "photosec.png",
         "link" : "https://photo-sec.vercel.app/",
@@ -69,11 +69,11 @@
         "id": 6,
         "name": "Clone-Gemini",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />",
-            "api": "<FontAwesomeIcon icon={faApi} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap",
+            "api": "faApi"
         }],
         "image": "Clone-Gemini.png",
         "link" : "https://project-clone-gemini.vercel.app/",
@@ -83,11 +83,11 @@
         "id": 7,
         "name": "Weather",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />",
-            "api": "<FontAwesomeIcon icon={faApi} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap",
+            "api": "faApi"
         }],
         "image": "Weather.png",
         "link" : "https://task4-4-webmasters.vercel.app/",
@@ -97,10 +97,10 @@
         "id": 8,
         "name": "Vision Pro",
         "languages": [{
-            "html": "<FontAwesomeIcon icon={faHtml5} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "html": "faHtml5",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "Vision.png",
         "link" : "https://ab0bakr1.github.io/project-PlacementDost-landing/",
@@ -110,10 +110,10 @@
         "id": 9,
         "name": "Jeddah",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "Jeddah.png",
         "link" : "https://jeddah-two.vercel.app/",
@@ -123,10 +123,10 @@
         "id": 10,
         "name": "then alqanoon",
         "languages": [{
-            "react": "<FontAwesomeIcon icon={faReact} />",
-            "css": "<FontAwesomeIcon icon={faCss3} />",
-            "js": "<FontAwesomeIcon icon={faJs} />",
-            "bootstrap": "<FontAwesomeIcon icon={faBootstrap} />"
+            "react": "faReact",
+            "css": "faCss3",
+            "js": "faJs",
+            "bootstrap": "faBootstrap"
         }],
         "image": "لقطة شاشة 2025-06-19 014656.png",
         "link" : "https://thahn-alqanon.vercel.app/",
