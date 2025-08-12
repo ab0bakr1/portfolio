@@ -81,35 +81,15 @@
     transform:translateZ(20px);
 }
 .Portfolio .card-languages{
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5px;
-    padding: 10px 0;
+    gap: 20px;
     width: 100%;
     height: 100%;
     transform:translateZ(20px);
-}
-.Portfolio .card-languages .languages-one{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Portfolio .card-languages .languages-one img{
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-}
-.Portfolio .card-languages .languages-one p{
-    color: #EE5E16;
-    font-size: 1rem;
-    font-family: 'Prata', serif;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 0;
-    padding-right: 5px;
 }
 .website{
     position: absolute;

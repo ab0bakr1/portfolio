@@ -21,9 +21,16 @@ import Vision from "../../IMG/Vision.png"
 import Weather from "../../IMG/Weather.png"
 import ThenAlqanoon from "../../IMG/لقطة شاشة 2025-06-19 014656.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faBootstrap, faCss3, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 
 
+const iconMap = {
+  faReact: faReact,
+  faCss3: faCss3,
+  faJs: faJs,
+  faBootstrap: faBootstrap,
+  faHtml5: faHtml5
+};
 
 
 const Portfolio = () => {
@@ -38,9 +45,9 @@ const Portfolio = () => {
                             <div className="card-front">
                                 <CardInfo name={website.name} type={website.type}/>
                                 <div className="card-languages">
-                                    {website.languages.map((language, langIndex) => (
-                                        <div className="languages-one" key={langIndex}>
-                                            <FontAwesomeIcon icon={language} />
+                                    {website.languages.map((iconKey, i) => (
+                                        <div className="languages-one" key={i}>
+                                            <FontAwesomeIcon icon={iconMap[iconKey]} />
                                         </div>
                                     ))}
                                 </div>
@@ -52,36 +59,6 @@ const Portfolio = () => {
                         </div>
                     </div>
                 ))}
-                <div className="Portfolio-card">
-                    <div className="card-box">
-                        <div className="card-front">
-                            <CardInfo name={"SmarTouch"} type={"E-Commerce"}/>
-                            <div className="card-languages">
-                                <div className="languages-one">
-                                    <img src={react} alt="react" loading='lazy' />
-                                    <p>react</p>
-                                </div>
-                                <div className="languages-one">
-                                    <img src={css} alt="css" loading='lazy' />
-                                    <p>css</p>
-                                </div>
-                                <div className="languages-one">
-                                    <img src={javascript} alt="javascript" loading='lazy' />
-                                    <p>javascript</p>
-                                </div>
-                                <div className="languages-one">
-                                    <img src={bootstrap} alt="bootstrap" loading='lazy' />
-                                    <p>bootstrap</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="card-back">
-                            <img src={smartouch} loading='lazy' alt="Website SmarTouch" />
-                        </div>
-                        <a href='https://ab0bakr1.github.io/SmarToucH/' target='_blank' className='website'></a>
-                    </div>
-                </div>
-                
             </Row>
         </Container>
     </section>
