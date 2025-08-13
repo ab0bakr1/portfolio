@@ -34,12 +34,24 @@ const iconMap = {
 
 
 const Portfolio = () => {
+
+  const [fillter, setFillter] = React.useState("all")
+  const category = ["all", "Directory", "E-Commerce", "AI Chat", "Landing page", "Weather App"]
+  const filltered = fillter === "all" ? Websites : Websites.filter((website) => website.type.toLowerCase() === fillter.toLowerCase());
+
+
   return (
     <section className='Portfolio' id='Portfolio'>
         <Container>
             <h2>My project</h2>
-            <Row xl={3} md={2} xs={1}>
-                {Websites.map((website, index) => (
+            <ul className="fillter">
+                {category.map((item) => (
+                    <li key={item} onClick={() => setFillter(item)} className={fillter === item ? "active" : ""}>{item}</li>
+                ))}
+            </ul>
+            <hr className="my-3" />
+            <Row xl={3} md={2} xs={1} className='Portfolio-items'>
+                {filltered.reverse().map((website, index) => (
                     <div className="Portfolio-card">
                         <div className="card-box">
                             <div className="card-front">

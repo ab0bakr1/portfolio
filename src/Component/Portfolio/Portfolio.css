@@ -5,13 +5,31 @@
 }
 .Portfolio h2{
     color: #EE5E16;
-    font-size: clamp(3rem,3.5rem,4rem);
+    font-size: clamp(3rem,3.5vw,4rem);
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 20px 0;
     font-family: 'Prata', serif;
     font-weight: 500;
     text-align: center;
+    margin: 4rem 0;
+}
+.fillter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 2rem;
+}
+.fillter li{
+    font-size: clamp(1rem,2vw,2rem);
+    color: #fff;
+    list-style:none;
+    text-transform: uppercase;
+}
+.fillter li:hover,
+.fillter li.active{
+    color: #EE5E16;
 }
 .Portfolio .col{
     padding: 0 10px;
@@ -79,6 +97,7 @@
     letter-spacing: 1px;
     padding: 10px 0;
     transform:translateZ(20px);
+    text-transform: uppercase;
 }
 .Portfolio .card-languages{
     font-size: 3rem;
