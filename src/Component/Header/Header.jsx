@@ -6,14 +6,14 @@ import Links from "./Links";
 
 const variants = {
     open: {
-      clipPath: "circle(1200px at 350px 45px)",
+      clipPath: "circle(1200px at calc(100% - 15%) 35px)",
       transition: {
         type: "spring",
         stiffness: 20,
       },
     },
     closed: {
-      clipPath: "circle(30px at 85% 35px)",
+      clipPath: "circle(30px at calc(100% - 15%) 35px)",
       transition: {
         delay: 0.5,
         type: "spring",
