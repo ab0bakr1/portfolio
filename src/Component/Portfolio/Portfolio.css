@@ -20,6 +20,7 @@
     justify-content: space-around;
     width:100%;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 .fillter li{
     font-size: clamp(1rem,2vw,2rem);
@@ -63,6 +64,7 @@
     backface-visibility: hidden;
     position: absolute;
     transform-style: preserve-3d;
+    text-align: center;
 }
 .Portfolio .Portfolio-card .card-box .card-back{
     backface-visibility: hidden;
