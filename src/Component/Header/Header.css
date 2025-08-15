@@ -155,7 +155,10 @@ header .nav-mobile .nav-side button{
     border: none;
     cursor: pointer;
     padding: 0;
-    position: fixed;
+    position: absolute;
+    z-index: 999;
+    top: -10px;
+    right: -15px;
 }
 header .nav-mobile .nav-side .nav-back .ul .side-socail{
     display: flex;
