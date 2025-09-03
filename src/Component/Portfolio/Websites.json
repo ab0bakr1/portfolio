@@ -78,5 +78,13 @@
         "image": "لقطة شاشة 2025-06-19 014656.png",
         "link" : "https://thahn-alqanon.vercel.app/",
         "type" : "Landing page"
+    },
+    {
+        "id": 11,
+        "name": "CBF",
+        "languages": ["faReact","faCss3","faJs","faTailwind"],
+        "image": "CBF.png",
+        "link" : "https://cbf-beige.vercel.app/",
+        "type" : "E-Commerce"
     }
 ]
