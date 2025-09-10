@@ -81,6 +81,14 @@
     },
     {
         "id": 11,
+        "name": "Alzain",
+        "languages": ["faReact","faCss3","faJs","faBootstrap"],
+        "image": "Alzain.png",
+        "link" : "https://alzain.onrender.com/",
+        "type" : "E-Commerce"
+    },
+    {
+        "id": 12,
         "name": "CBF",
         "languages": ["faReact","faCss3","faJs","faTailwind"],
         "image": "CBF.png",
