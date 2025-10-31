@@ -94,5 +94,13 @@
         "image": "CBF.png",
         "link" : "https://cbf-beige.vercel.app/",
         "type" : "E-Commerce"
+    },
+     {
+        "id": 13,
+        "name": "Voyago",
+        "languages": ["faReact","faCss3","faJs","faTailwind"],
+        "image": "Voyago.png",
+        "link" : "https://voyago-theta.vercel.app/",
+        "type" : "Travel & Tourism"
     }
 ]
