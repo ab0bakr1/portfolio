@@ -22,7 +22,7 @@ header .logo{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: logo 80s linear infinite;
+    animation: logo 30s linear infinite;
     transform: translate3d(0,0,0);
     backface-visibility: hidden;
     text-transform: uppercase;
