@@ -1,121 +1,156 @@
-.Portfolio{
+.Portfolio {
     background-color: #1e1e1e;
-    width: 100%;
-    padding-top: 50px;
+    padding: 100px 0;
+    overflow: hidden;
 }
-.Portfolio h2{
-    color: #EE5E16;
-    font-size: clamp(3rem,3.5vw,4rem);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 20px 0;
-    font-family: 'Prata', serif;
-    font-weight: 500;
+
+.Portfolio h2 {
     text-align: center;
-    margin: 4rem 0;
-}
-.fillter{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width:100%;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-}
-.fillter li{
-    font-size: clamp(1rem,2vw,2rem);
     color: #fff;
-    list-style:none;
-    text-transform: uppercase;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 50px;
+    font-weight: 900;
 }
-.fillter li:hover,
-.fillter li.active{
-    color: #EE5E16;
-}
-.Portfolio .col{
-    padding: 0 10px;
-}
-.Portfolio .Portfolio-card{
-    padding: 20px;
-    perspective: 500px;
-}
-.Portfolio .Portfolio-card .card-box{
-    transform-style: preserve-3d;
-    position: relative;
-    height: 420px;
-    margin: 0 auto;
-    transition: 1s ease-in-out;
-}
-.Portfolio .Portfolio-card:hover .card-box{
-    transform: rotateY(180deg);
-}
-.Portfolio .Portfolio-card .card-box .card-front{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow:inset 0 0 5px 5px #EE5E16 ;
-    border: #1e1e1e 5px solid;
-    outline: #EE5E16 5px solid;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    position: absolute;
-    transform-style: preserve-3d;
-    text-align: center;
-}
-.Portfolio .Portfolio-card .card-box .card-back{
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-.Portfolio .Portfolio-card .card-box .card-back img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-.Portfolio .Portfolio-card .card-box:hover .card-back{
-    transform: rotateY(180deg)
-}
-.Portfolio .Portfolio-card .card-front h4{
-    color: #EE5E16;
-    font-size: 1.5rem;
-    font-family: 'Bad Script', cursive;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 30px 0;
-    transform:translateZ(20px);
-}
-.Portfolio .Portfolio-card .card-front h3{
-    color: #EE5E16;
-    font-size: clamp(2rem,2.2rem,3rem);
-    font-family: 'Prata', serif;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    padding: 10px 0;
-    transform:translateZ(20px);
-    text-transform: uppercase;
-}
-.Portfolio .card-languages{
-    font-size: 3rem;
+
+.Portfolio h2 span { color: #EE5E16; }
+
+/* Filter Tabs */
+.filter-tabs {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 15px;
     flex-wrap: wrap;
-    gap: 20px;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.filter-tabs li {
+    list-style: none;
+    color: #a0a0a0;
+    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.filter-tabs li.active, .filter-tabs li:hover {
+    background: #EE5E16;
+    color: #fff;
+    border-color: #EE5E16;
+    box-shadow: 0 10px 20px rgba(238, 94, 22, 0.2);
+}
+
+/* Modern Project Card */
+.project-modern-card {
+    position: relative;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #252525;
+    group: hover;
+}
+
+.image-wrapper {
     width: 100%;
     height: 100%;
-    transform:translateZ(20px);
+    transition: 0.5s ease-in-out;
 }
-.website{
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.project-modern-card:hover .image-wrapper img {
+    transform: scale(1.1) translateY(-20px);
+    filter: blur(2px) brightness(0.5);
+}
+
+.overlay-gradient {
     position: absolute;
-    top: 0;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 20%, rgba(30, 30, 30, 0.95) 90%);
+    z-index: 1;
+}
+
+/* Content Layout */
+.project-content {
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    padding: 30px;
+    z-index: 2;
+    transform: translateY(60px);
+    transition: 0.4s ease-out;
+}
+
+.project-modern-card:hover .project-content {
+    transform: translateY(0);
+}
+
+.project-category {
+    color: #EE5E16;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.project-content h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.tech-stack {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.project-modern-card:hover .tech-stack {
+    opacity: 1;
+}
+
+/* Actions */
+.project-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.view-btn, .offline-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.view-btn {
+    background: #EE5E16;
+    color: #fff;
+}
+
+.view-btn:hover {
+    background: #fff;
+    color: #EE5E16;
+}
+
+.offline-btn {
+    background: rgba(255,255,255,0.1);
+    color: #777;
+    cursor: not-allowed;
+    border: 1px solid rgba(255,255,255,0.05);
 }

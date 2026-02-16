@@ -8,7 +8,7 @@ const Button = ({ setOpen }) => {
       <svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path
           strokeWidth="3"
-          stroke="black"
+          stroke="#EE5E16"
           strokeLinecap="round"
           d="M 2 2.5 L 20 2.5"
           variants={{
@@ -18,7 +18,7 @@ const Button = ({ setOpen }) => {
         />
         <motion.path
           strokeWidth="3"
-          stroke="black"
+          stroke="#EE5E16"
           strokeLinecap="round"
           d="M 2 9.423 L 20 9.423"
           variants={{
@@ -28,7 +28,7 @@ const Button = ({ setOpen }) => {
         />
         <motion.path
           strokeWidth="3"
-          stroke="black"
+          stroke="#EE5E16"
           strokeLinecap="round"
           d= "M 2 16.346 L 20 16.346"
           variants={{

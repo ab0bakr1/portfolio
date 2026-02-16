@@ -1,20 +1,37 @@
-import React from 'react'
-import "./Footer.css"
-import { Container } from 'react-bootstrap'
+import React from 'react';
+import "./Footer.css";
+import { Container } from 'react-bootstrap';
+import { motion } from 'framer-motion';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer>
-        <Container>
-            <hr />
+    <footer className="footer-modern">
+      <Container>
+        <div className="footer-divider">
+          <div className="divider-glow"></div>
+        </div>
+        
+        <div className="footer-content">
+          <motion.div 
+            className="footer-brand"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
             <h3>
-                Copyright © 2024 <span>
-                    Abobakr almashhor
-                </span>
+              Built with Passion by <span>Abobakr Almashhor</span>
             </h3>
-        </Container>
+          </motion.div>
+          
+          <div className="footer-copyright">
+            <p>© {currentYear} All Rights Reserved.</p>
+          </div>
+        </div>
+      </Container>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -1,289 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Prata&display=swap');
-.about{
+.about {
     width: 100%;
-    height: 100%;
-}
-.about .container{
-    position: relative;
-    height: 100%;
-}
-.about .row{
-    position: absolute;
-    top: 20%;
-    left: 0;
-    padding: 10px;
-    width: 100%;
-    justify-self: anchor-center;
-}
-.about .about-info{
-    padding: 80px 0;
-}
-.about .about-info h6{
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #ee5e16;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 10px 0;
-}
-.about .about-info h4{
-    font-size: clamp(2.7rem, 3vw, 6rem);
-    font-weight: 700;
-    color: #fff;
-    margin: 35px 0;
-    text-transform: uppercase;
-    font-family: 'Prata', serif;
-}
-.about .about-info h4 span{
-    color: #EE5E16;
-}
-.about .about-info .animation{
-    height: 100px;
-    width: 100%;
-}
-.about .about-info h3{
-    font-size: clamp(2.7rem, 3vw, 6rem);
-    font-weight: 400;
-    color: #EE5E16;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    position: relative;
-}
-.about .about-info h3::before{
-    content: "";
-    position: absolute;
-    color: #EE5E16;
-    animation-name: words;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    font-family: 'Bad Script', cursive;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-}
-@keyframes words {
-    2%{
-        content: "F";
-    }
-    4%{
-        content: "Fr";
-    }
-    6%{
-        content: "Fro"
-    }
-    8%{
-        content: "Fron"
-    }
-    10%{
-        content: "Front"
-    }
-    12%{
-        content: "Front-e"
-    }
-    14%{
-        content: "Front-en"
-    }
-    16%{
-        content: "Front-end"
-    }
-    18%{
-        content: "Front-end"
-    }
-    20%{
-        content: "Front-en"
-    }
-    22%{
-        content: "Front-e"
-    }
-    24%{
-        content: "Front"
-    }
-    26%{
-        content: "Fron"
-    }
-    28%{
-        content: "Fro"
-    }
-    30%{
-        content: "Fr"
-    }
-    32%{
-        content: "F"
-    }
-    34%{
-        content: ""
-    }
-    36%{
-        content: "B";
-    }
-    38%{
-        content: "Ba";
-    }
-    40%{
-        content: "Bac";
-    }
-    42%{
-        content: "Back";
-    }
-    44%{
-        content: "Back-e";
-    }
-    46%{
-        content: "Back-en";
-    }
-    48%{
-        content: "Back-end";
-    }
-    50%{
-        content: "Back-end";
-    }
-    52%{
-        content: "Back-en";
-    }
-    54%{
-        content: "Back-e";
-    }
-    56%{
-        content: "Back";
-    }
-    58%{
-        content: "Bac";
-    }
-    60%{
-        content: "Ba";
-    }
-    62%{
-        content: "B";
-    }
-    64%{
-        content: ""
-    }
-    66%{
-        content: "F";
-    }
-    68%{
-        content: "Fu";
-    }
-    70%{
-        content: "Ful";
-    }
-    72%{
-        content: "Full";
-    }
-    74%{
-        content: "Full-s";
-    }
-    76%{
-        content: "Full-st";
-    }
-    78%{
-        content: "Full-sta";
-    }
-    80%{
-        content: "Full-stac";
-    }
-    82%{
-        content: "Full-stack";
-    }
-    84%{
-        content: "Full-stack";
-    }
-    86%{
-        content: "Full-sta";
-    }
-    88%{
-        content: "Full-st";
-    }
-    90%{
-        content: "Full-s";
-    }
-    92%{
-        content: "Full";
-    }
-    94%{
-        content: "Ful";
-    }
-    96%{
-        content: "Fu";
-    }
-    98%{
-        content: "F"
-    }
-    100%{
-        content: "";
-    }
-}
-.about .about-info .about-me{
+    min-height: 100vh;
+    background-color: #1e1e1e; /* لونك الأساسي */
+    /* إضافة لمسة خفيفة جداً من اللون البرتقالي في الخلفية */
+    background: radial-gradient(circle at 10% 20%, rgba(238, 94, 22, 0.05) 0%, rgba(30, 30, 30, 1) 90%);
+    overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    gap: 30px;
 }
-.about .about-info .about-me a{
-    position: relative;
-    color: #EE5E16;
-    border: none;
-    outline: 1px solid #EE5E16;
-    padding: 10px 30px;
-    font-size: clamp(0.8rem,2vw,1rem);
-    text-transform: uppercase;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    cursor: pointer;
-    font-family: 'Prata', serif;
-    overflow: hidden;
-    text-decoration: none;
-    z-index: 2;
-}
-.about .about-info .about-me a:hover{
-    color: #fff;
-    transition: all .8s ease-in-out, color .5s ease-in-out;
-    box-shadow: 0 0.5em 0.5em -0.4em #EE5E16;
-    transform: translateY(-0.25em);
-}
-.about .about-info .about-me a:active{
-    transform: scale(0.8);
-    transition: transform .01s ease-in-out;
-}
-.about .about-img{
-    margin: auto;
-    width: 80%;
-    height: 80%;
-    background-color: #EE5E16;
-    border-radius:70% 50% 40% 80%;
-    border: 5px solid #EE5E16;
-    box-shadow:inset 0 0 0 20px rgb(255 255 255 / 30%) ;
-    overflow: hidden;
-    animation: border-radius 8s ease-in-out infinite 1s;
 
+.about .about-info h6 {
+    color: #EE5E16;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
-@keyframes border-radius {
-    0%{
-        border-radius: 70% 50% 40% 80%/70% 40% 80% 50%;
-    }
-    50%{
-        border-radius: 40% 70% 80% 50%/60% 70% 40% 70%;
-    }
-    100%{
-        border-radius: 70% 50% 40% 80%/70% 40% 80% 50%;
-    }
+
+.about .about-info h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 25px;
 }
-@media screen and (max-width: 770px) {
-    .about .about-info{
-        padding: 0;
-        text-align: center;
-    }
-    .about .about-info .about-me{
-        justify-content: center;
-    }
+
+.about .about-info h1 span {
+    color: #EE5E16;
+    display: block;
 }
-@media screen and (max-width: 768px){
-    .about .about-img{
-        display: none;
-    }
+
+.description {
+    color: #a0a0a0;
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* الأزرار الجديدة */
+.about-me {
+    display: flex;
+    gap: 20px;
+}
+
+.CV-btn {
+    background-color: #EE5E16;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid #EE5E16;
+}
+
+.CV-btn:hover {
+    background-color: transparent;
+    color: #EE5E16;
+}
+
+.contact-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #fff;
+    color: #1e1e1e;
+}
+
+/* الصورة الشخصية */
+.about-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-backdrop {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: #EE5E16;
+    filter: blur(80px); /* توهج خلف الصورة */
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 450px;
+    z-index: 2;
+    filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.5));
+}
+
+@media (max-width: 992px) {
+    .about-info { text-align: center; }
+    .about-me { justify-content: center; }
+    .description { margin: 0 auto 40px auto; }
 }

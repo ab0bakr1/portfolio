@@ -1,17 +1,12 @@
 import React from 'react'
 import './Hero.css'
 import About from './About/About'
-import Background from './Background'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section className='hero' id="home">
         <About />
-        <div className='background'>
-          <Background />
-        </div>
     </section>
-        
   )
 }
 

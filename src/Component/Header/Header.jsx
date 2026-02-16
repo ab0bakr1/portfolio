@@ -28,7 +28,11 @@ function Header() {
     return (
       <header >
           <div>
-              <h1 className=""><a className="logo " href="">Portfolio</a></h1>
+              <h1 className="logo-container">
+              <a className="logo" href="/">
+                  PORT<span style={{color: '#EE5E16'}}>FOLIO</span>
+              </a>
+          </h1>
           </div>
           <nav>
               <ul>
@@ -49,4 +53,4 @@ function Header() {
       </header>
     )
 }
-export default Header;
+export default Header; 

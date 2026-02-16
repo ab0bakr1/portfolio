@@ -1,48 +1,93 @@
-import React from 'react'
-import "./Contact.css"
-import { Col, Container, Row } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faSquareFacebook, faSquareGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import React from 'react';
+import "./Contact.css";
+import { Col, Container, Row } from 'react-bootstrap';
+import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faSquareFacebook, faSquareGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
-    <section className='contact' id='contact'>
-        <Container>
-            <h2>Contact me</h2>
-            <Row xl={2} md={2} xs={1}>
-                <Col xl={5} md={5} xs={12}>
-                    <div className="contact-info" data-aos="fade-right" data-aos-duration="2000">
-                        <p><strong>Name : </strong>Abobakr Zain Almashhor</p>
-                        <p><strong>Email : </strong>abobakralmashhor@gmail.com</p>
-                        <p><strong>Phone : </strong>+967 730605256 <br/> +966543770498 <br/> +96876628669</p>
-                        <div className="contact-socail" data-aos="fade-up" data-aos-duration="2000">
-                            <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareFacebook} /></a>
-                            <a href=""><FontAwesomeIcon icon={faSquareGithub} /></a>
-                        </div>
-                    </div>
-                </Col>
-                <Col xl={7} md={7} xs={12}>
-                    <div className="contact-item" data-aos="fade-down" data-aos-duration="2000">
-                        <a href='https://wa.me/+96876628669' target='_blank' className="contact-now">
-                            <FontAwesomeIcon icon={faWhatsapp} />
-                            <h5>Whatsapp</h5>
-                            <h6>+96876628669</h6>
-                            <p>write me</p>
-                        </a>
-                        <a href='mailto:abobakralmshhor@gmail.com' target='_blank' className="contact-now">
-                            <FontAwesomeIcon icon={faEnvelope} />
-                            <h5>Mail</h5>
-                            <h6>abobakralmshhor@gmail.com</h6>
-                            <p>write me</p>
-                        </a>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+    <section className='contact-section' id='contact'>
+      <Container>
+        <div className="contact-header">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            Get In <span>Touch</span>
+          </motion.h2>
+          <div className="title-underline"></div>
+        </div>
+
+        <Row className="align-items-center">
+          <Col lg={5} className='mb-5 mb-lg-0'>
+            <div className="contact-details">
+              <h3>Let's talk about your next project</h3>
+              <p className="contact-desc">
+                I'm always open to discussing product design work or partnership opportunities.
+              </p>
+              
+              <div className="info-list">
+                <div className="info-item">
+                  <span>Name</span>
+                  <p>Abobakr Zain Almashhor</p>
+                </div>
+                <div className="info-item">
+                  <span>Email</span>
+                  <p>abobakralmashhor@gmail.com</p>
+                </div>
+                <div className="info-item">
+                  <span>Phone Numbers</span>
+                  <p>+967 730605256 | +966 543770498</p>
+                </div>
+              </div>
+
+              <div className="social-links-wrapper">
+                <a href="#" className="social-btn"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="#" className="social-btn"><FontAwesomeIcon icon={faSquareGithub} /></a>
+                <a href="#" className="social-btn"><FontAwesomeIcon icon={faSquareFacebook} /></a>
+              </div>
+            </div>
+          </Col>
+
+          <Col lg={7}>
+            <div className="contact-cards-container">
+              <motion.a 
+                href='https://wa.me/+96876628669' 
+                target='_blank' 
+                className="action-card whatsapp"
+                whileHover={{ y: -10 }}
+              >
+                <div className="card-icon"><FontAwesomeIcon icon={faWhatsapp} /></div>
+                <div className="card-text">
+                  <h4>WhatsApp</h4>
+                  <p>Direct Chat</p>
+                </div>
+                <FontAwesomeIcon icon={faPaperPlane} className="arrow-icon" />
+              </motion.a>
+
+              <motion.a 
+                href='mailto:abobakralmshhor@gmail.com' 
+                target='_blank' 
+                className="action-card email"
+                whileHover={{ y: -10 }}
+              >
+                <div className="card-icon"><FontAwesomeIcon icon={faEnvelope} /></div>
+                <div className="card-text">
+                  <h4>Email Me</h4>
+                  <p>Send an Inquiry</p>
+                </div>
+                <FontAwesomeIcon icon={faPaperPlane} className="arrow-icon" />
+              </motion.a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   )
 }
 
-export default Contact
+export default Contact;
