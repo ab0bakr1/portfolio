@@ -46,9 +46,8 @@ const Contact = () => {
               </div>
 
               <div className="social-links-wrapper">
-                <a href="#" className="social-btn"><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a href="#" className="social-btn"><FontAwesomeIcon icon={faSquareGithub} /></a>
-                <a href="#" className="social-btn"><FontAwesomeIcon icon={faSquareFacebook} /></a>
+                <a href="http://www.linkedin.com/in/abobakr-almashhor" className="social-btn"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://github.com/ab0bakr1" className="social-btn"><FontAwesomeIcon icon={faSquareGithub} /></a>
               </div>
             </div>
           </Col>
