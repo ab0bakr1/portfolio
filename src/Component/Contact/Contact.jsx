@@ -3,7 +3,7 @@ import "./Contact.css";
 import { Col, Container, Row } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faSquareFacebook, faSquareGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faSquareGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
