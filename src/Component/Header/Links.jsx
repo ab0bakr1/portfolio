@@ -43,10 +43,10 @@ const Links = () => {
         </motion.a>
       ))}
       <div className="side-socail">
-        <a href='https://github.com/ab0bakr1' target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-        <a href='https://wa.me/+96876628669' target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
-        <a href='http://www.linkedin.com/in/abobakr-almashhor' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href='mailto:abobakralmshhor@gmail.com' target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href='https://github.com/ab0bakr1' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href='https://wa.me/+96876628669' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
+        <a href='http://www.linkedin.com/in/abobakr-almashhor' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href='mailto:abobakralmshhor@gmail.com' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
       </div>
     </motion.div>
   )
