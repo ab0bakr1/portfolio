@@ -110,6 +110,7 @@
 
 .tech-stack {
     display: flex;
+    align-items: center;
     gap: 15px;
     margin-bottom: 25px;
     color: #fff;

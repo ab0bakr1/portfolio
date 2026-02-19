@@ -5,7 +5,7 @@ import './Portfolio.css';
 import Websites from './Websites.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faCss3, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faExternalLinkAlt, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 const iconMap = {
   faReact, faCss3, faJs, faBootstrap, faHtml5
@@ -13,9 +13,9 @@ const iconMap = {
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
-  const categories = ["all", "Directory", "E-Commerce", "AI Chat", "Landing page", "Weather App"];
+  const categories = ["All", "Directory", "E-Commerce", "AI Chat", "Landing page", "Weather App" , "POS System"];
   
-  const filteredProjects = filter === "all" 
+  const filteredProjects = filter === "all"  
     ? Websites 
     : Websites.filter((w) => w.type.toLowerCase() === filter.toLowerCase());
 
@@ -44,7 +44,7 @@ const Portfolio = () => {
 
         <Row className='g-4'>
           <AnimatePresence mode='popLayout'>
-            {filteredProjects.map((project, index) => (
+            {filteredProjects.slice().reverse().map((project, index) => (
               <Col key={project.id} lg={4} md={6} xs={12}>
                 <motion.div 
                   layout
@@ -55,7 +55,7 @@ const Portfolio = () => {
                   className="project-modern-card"
                 >
                   <div className="image-wrapper">
-                    <img src={require(`../../IMG/${project.image}`)} alt={project.name} />
+                    <img src={require(`../../IMG/${project.image}`)} alt={project.name} loading="lazy" />
                     <div className="overlay-gradient"></div>
                   </div>
 
@@ -67,17 +67,28 @@ const Portfolio = () => {
                       {project.languages.map((icon, i) => (
                         <FontAwesomeIcon key={i} icon={iconMap[icon]} />
                       ))}
+                      {project.languagSVGNET !== undefined && (
+                        <div 
+                          className="svg-icon-style" 
+                          dangerouslySetInnerHTML={{ __html: project.languagSVGNET }} 
+                        />
+                      )}
+                      {project.languagSVGCS !== undefined && (
+                        <div 
+                          className="svg-icon-style"  
+                          dangerouslySetInnerHTML={{ __html: project.languagSVGCS }} 
+                        />
+                      )}
                     </div>
-
                     <div className="project-actions">
                       {project.link !== "#" ? (
                         <a href={project.link} target='_blank' rel="noreferrer" className="view-btn">
                           Live Demo <FontAwesomeIcon icon={faExternalLinkAlt} />
                         </a>
                       ) : (
-                        <span className="offline-btn">
-                          Local Build <FontAwesomeIcon icon={faLock} />
-                        </span>
+                        <a href={project.Github} target='_blank' rel="noreferrer" className="view-btn">
+                          Code <FontAwesomeIcon icon={faExternalLinkAlt} />
+                        </a>
                       )}
                     </div>
                   </div>

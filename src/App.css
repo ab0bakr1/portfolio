@@ -6,3 +6,6 @@
 h2{
   font-size: clamp(2rem, 4vw, 6rem) !important;
 }
+#root{
+  overflow: clip;
+}

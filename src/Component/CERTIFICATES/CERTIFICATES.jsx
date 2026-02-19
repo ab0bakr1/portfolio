@@ -8,8 +8,8 @@ import "./CERTIFICATES.css";
 
 const certData = [
   { img: CERTIFICATE1, title: "Frontend Specialist" },
-  { img: CERTIFICATE2, title: "Backend Mastery" },
-  { img: CERTIFICATE3, title: "Fullstack Diploma" }
+  { img: CERTIFICATE2, title: "Frontend Diploma" },
+  { img: CERTIFICATE3, title: "Backend Diploma" }
 ];
 
 const CERTIFICATES = () => {
