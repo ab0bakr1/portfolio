@@ -19,7 +19,7 @@
         "id": 3,
         "name": "SmarTouch",
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
-        "image": "SmarToucH2.png",
+        "image": "SmarTouch.png",
         "link" : "https://smar-touc-h-kappa.vercel.app/",
         "type" : "E-Commerce"
     },
