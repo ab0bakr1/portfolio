@@ -124,5 +124,13 @@
         "link" : "#",
         "Github" : "https://github.com/ab0bakr1/Alnkhil",
         "type" : "POS System"
-    }
+    },
+    {
+        "id": 16,
+        "name": "ProjectLawyr",
+        "languages": ["faNext","faTypeScript","faTailwind"],
+        "image": "ProjectLaw.png",
+        "link" : "https://project-lawyer-iota.vercel.app/",
+        "type" : "Landing page"
+    },
 ]
