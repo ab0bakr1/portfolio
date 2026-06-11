@@ -132,5 +132,14 @@
         "image": "ProjectLaw.png",
         "link" : "https://project-lawyer-iota.vercel.app/",
         "type" : "Landing page"
+    },
+    {
+        "id": 17,
+        "name": "restaurant-menu",
+        "languages": ["faNext","faTypeScript","faTailwind"],
+        "image": "restaurant-menu.png",
+        "link" : "#",
+        "Github" : "https://github.com/ab0bakr1/restaurant-menu",
+        "type" : "Digital System"
     }
 ]
