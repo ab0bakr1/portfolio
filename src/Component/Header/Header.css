@@ -70,6 +70,9 @@ header nav ul li a:hover { color: #fff; }
 header nav ul li a:hover::after { width: 100%; }
 
 /* ===== Mobile Menu ===== */
+header .nav-mobile { 
+    display: none; 
+}
 header .nav-mobile .nav-side .nav-back {
     z-index: 999;
     position: fixed;
