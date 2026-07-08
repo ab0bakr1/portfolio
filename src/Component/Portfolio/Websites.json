@@ -141,5 +141,14 @@
         "link" : "#",
         "Github" : "https://github.com/ab0bakr1/restaurant-menu",
         "type" : "Digital System"
+    },
+    {
+        "id": 18,
+        "name": "adhan-desktop-app",
+        "languages": ["faNext","faTypeScript","faTailwind"],
+        "image": "adahn.png",
+        "link" : "#",
+        "Github" : "https://github.com/ab0bakr1/adhan-desktop-app",
+        "type" : "desktop-app"
     }
 ]
