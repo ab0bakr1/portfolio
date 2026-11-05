@@ -1,7 +1,8 @@
 [
-    /*{
+    {
         "id": 1,
         "name": "Ten Clouds",
+        "hidden": true,
         "languages": ["faHtml5","faCss3","faJs","faBootstrap"],
         "image": "tenclaouds.mp4 05_07_45 02_55_25 م.png",
         "link" : "https://ab0bakr1.github.io/project-TenCloud/",
@@ -10,12 +11,13 @@
     {
         "id": 2,
         "name": "Carslk",
+        "hidden": true,
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
         "image": "carslk.mp4 05_07_45 02_56_13 م.png",
         "link" : "https://ab0bakr1.github.io/Carslk/",
         "type" : "E-Commerce"
     },
-    */{
+    {
         "id": 3,
         "name": "SmarTouch",
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
@@ -23,15 +25,16 @@
         "link" : "https://smar-touc-h-kappa.vercel.app/",
         "type" : "E-Commerce"
     },
-    /*{
+    {
         "id": 4,
         "name": "SeriesNa",
+        "hidden": true,
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
         "image": "seriesna.png",
         "link" : "https://ab0bakr1.github.io/SeriesNa/",
         "type" : "TV Shows"
     },
-    */{
+    {
         "id": 5,
         "name": "PhotoSec",
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
@@ -39,15 +42,16 @@
         "link" : "https://photo-sec.vercel.app/",
         "type" : "Landing page"
     },
-    /*{
+    {
         "id": 6,
         "name": "Clone-Gemini",
+        "hidden": true,
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
         "image": "Clone-Gemini.png",
         "link" : "https://project-clone-gemini.vercel.app/",
         "type" : "AI Chat"
     },
-    */{
+    {
         "id": 7,
         "name": "Weather",
         "languages": ["faReact","faCss3","faJs","faBootstrap"],
