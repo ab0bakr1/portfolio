@@ -14,10 +14,12 @@ const iconMap = {
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
   const categories = ["All", "Directory", "E-Commerce", "AI Chat", "Landing page", "Weather App" , "POS System"];
+
+  const visibleProjects = Websites.filter(p => !p.hidden);
   
   const filteredProjects = filter === "all"  
-    ? Websites 
-    : Websites.filter((w) => w.type.toLowerCase() === filter.toLowerCase());
+    ? visibleProjects 
+    : visibleProjects.filter((w) => w.type.toLowerCase() === filter.toLowerCase());
 
   return (
     <section className='Portfolio' id='Portfolio'>
